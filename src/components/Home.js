@@ -17,10 +17,16 @@ export default function Home() {
             />
           </Col>
           <Col xs={5} md={6} lg={7} xl={7}>
-            <h1>Ruslan Temirkhanov</h1>
-            <h3 style={{ paddingBottom: "2%" }}>Programmer, Web-Developer</h3>
+            <h1 className="display-4">Ruslan Temirkhanov</h1>
+            <h3
+              className="display-3"
+              style={{ fontSize: "1.8rem", paddingBottom: "2%" }}
+            >
+              Programmer, Web-Developer
+            </h3>
             <div style={{ borderTop: "0.2rem dotted white" }} />
             <div
+              className="display-3"
               style={{
                 paddingTop: "2%",
                 wordSpacing: "4px",

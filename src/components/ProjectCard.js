@@ -1,15 +1,16 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
+
 export default function ProjectCard(props) {
   return (
     <div
       className="card-container bg-white text-center "
       style={{
         display: "inline-block",
-        padding: "1px",
+        margin: "4px",
+        padding: "0",
         paddingBottom: "0",
         height: "200px",
-        width: "200px",
+        width: "250px",
         borderRight: "1px solid black"
       }}
     >
@@ -17,11 +18,11 @@ export default function ProjectCard(props) {
         className="font-weight-normal "
         style={{
           background: "#2c3e50",
-          paddingBottom: "2px",
+          paddingBottom: "3px",
           margin: "0",
           textAlign: "center",
-          fontSize: "17px",
-          height: "25px"
+          fontSize: "19px",
+          height: "28px"
         }}
       >
         {props.projectName}
@@ -33,9 +34,9 @@ export default function ProjectCard(props) {
           whiteSpace: "pre-line",
           color: "black",
           padding: "1%",
-          fontSize: "14px",
+          fontSize: "15px",
           marginBottom: "0",
-          height: "115px"
+          height: "110px"
         }}
       >
         {props.descr}
@@ -52,7 +53,7 @@ export default function ProjectCard(props) {
           fontWeight: "normal",
           fontSize: "16px",
           borderRadius: "0",
-          height: "25px"
+          height: "30px"
         }}
       >
         <i className="fab fa-github" /> Github

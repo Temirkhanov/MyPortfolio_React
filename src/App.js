@@ -9,11 +9,7 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <div className="App">
-      <Tabs
-        defaultActiveKey="projects"
-        id="uncontrolled-tab"
-        className="navbar"
-      >
+      <Tabs defaultActiveKey="home" id="uncontrolled-tab" className="navbar">
         <Tab eventKey="home" title="Home" className="nav-tab">
           <div
             className="container-home align-items-center"

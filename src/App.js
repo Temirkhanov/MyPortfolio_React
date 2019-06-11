@@ -9,7 +9,11 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <div className="App">
-      <Tabs defaultActiveKey="home" id="uncontrolled-tab" className="navbar">
+      <Tabs
+        defaultActiveKey="projects"
+        id="uncontrolled-tab"
+        className="navbar"
+      >
         <Tab eventKey="home" title="Home" className="nav-tab">
           <div
             className="container-home align-items-center"
@@ -20,8 +24,8 @@ function App() {
             <Contact />
           </div>
         </Tab>
-        <Tab eventKey="projects" title="Projects">
-          <div className="container align-items-center">
+        <Tab eventKey="projects" title="Projects" className="nav-tab">
+          <div className="">
             <Projects />
           </div>
         </Tab>

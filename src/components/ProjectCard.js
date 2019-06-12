@@ -17,19 +17,19 @@ export default function ProjectCard(props) {
       <div
         className="font-weight-normal "
         style={{
-          background: "#2c3e50",
-          paddingBottom: "3px",
+          color: "black",
+          paddingBottom: "5px",
           margin: "0",
           textAlign: "center",
-          fontSize: "19px",
-          height: "28px"
+          fontSize: "20px",
+          height: "30px"
         }}
       >
         {props.projectName}
       </div>
 
       <p
-        className="font-weight-normal d-flex align-items-start flex-column bd-highlight mb-4"
+        className=" d-flex align-items-start flex-column bd-highlight mb-4 font-weight-normal"
         style={{
           whiteSpace: "pre-line",
           color: "black",
@@ -49,7 +49,7 @@ export default function ProjectCard(props) {
         rel="noopener noreferrer"
         style={{
           padding: "2%",
-          width: "190px",
+          width: "200px",
           fontWeight: "normal",
           fontSize: "16px",
           borderRadius: "0",

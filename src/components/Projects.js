@@ -29,7 +29,7 @@ export default function Projects() {
             </div>
             <ProjectCard
               projectName="Social Geeking"
-              descr="Using MERN stack created social network for programmers to show their work and profile. Full user registration and authentication. Gets repositories from Github. CRUD functionality."
+              descr="Network for programmers using MERN stack. Full user registration and authentication. Gets repositories from Github. CRUD functionality."
               gurl="https://github.com/Temirkhanov/SocialGeeking"
             />
             <ProjectCard
@@ -78,18 +78,18 @@ export default function Projects() {
               Java
             </div>
             <ProjectCard
-              projectName="Huffman Data Compression"
+              projectName="Huffman Coding"
               descr="Constructred Huffman ordered linked list using insertion sort, Huffman binary tree and Huffman coding scheme. Traversed the Huffman binary tree."
               gurl="https://github.com/Temirkhanov/Algorithms_JAVA/tree/master/HuffmanCoding"
             />
             <ProjectCard
-              projectName="MultiThread Synchronization"
+              projectName="Threads Synchronization"
               descr="This project was part of Distributed Systems class in college. Using monitors constructed synchroinization that allows threads to have both mutual exclusion and the ability to wait."
               gurl="https://github.com/Temirkhanov/Algorithms_JAVA/tree/master/Monitor_MultiThread"
             />
             <ProjectCard
               projectName="Dependency Scheduling"
-              descr="Implemented Partial Ordering and dependant graph to solve a scheduling problem. Takes in a directed (dependency) graph and constructs a schedule table based on the given dependency of nodes in the graph."
+              descr="Partial Ordering and dependancy graph to solve a scheduling problem. Takes in a directed graph and constructs a schedule table based on the given dependency of nodes in the graph."
               gurl="https://github.com/Temirkhanov/Algorithms_JAVA/tree/master/PartialOrdering_Scheduling"
             />
             <ProjectCard
@@ -134,8 +134,8 @@ export default function Projects() {
               gurl="https://github.com/Temirkhanov/Algorithms_CPP/blob/master/HuffmanCoding.cpp"
             />
             <ProjectCard
-              projectName="Partial Ordering, Scheduling."
-              descr="Implemented Partial Ordering and dependant graph to solve a scheduling problem. Takes in a directed (dependency) graph and constructs a schedule table based on the given dependency of nodes in the graph."
+              projectName="PO, Scheduling"
+              descr="Partial Ordering and dependancy graph to solve a scheduling problem. Takes in a directed graph and constructs a schedule table based on the given dependency of nodes in the graph."
               gurl="https://github.com/Temirkhanov/Algorithms_CPP/blob/master/PartialOrdering_Scheduling.cpp"
             />
           </div>

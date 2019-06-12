@@ -8,34 +8,21 @@ export default function Home() {
   return (
     <div className="home">
       <Container>
-        <Row>
-          <Col lg={3} md={3} sm={4} xs={4}>
+        <Row className="justify-content-center">
+          <Col lg={4} md={4} sm={8} xs={8}>
             <Image
               src="https://avatars0.githubusercontent.com/u/18630847?s=460&v=4"
-              className="responsive-img"
+              className="responsive-img center"
               roundedCircle
             />
           </Col>
-          <Col xs={5} md={6} lg={7} xl={7}>
+          <Col xs={12} md={8} lg={7} xl={7}>
             <h1 className="display-4">Ruslan Temirkhanov</h1>
             <h3
               className="display-3"
-              style={{ fontSize: "1.8rem", paddingBottom: "2%" }}
+              style={{ fontSize: "2.5rem", paddingBottom: "2%" }}
             >
-              Programmer, Web-Developer
-            </h3>
-            <div style={{ borderTop: "0.2rem dotted white" }} />
-            <div
-              className="display-3"
-              style={{
-                paddingTop: "2%",
-                wordSpacing: "4px",
-                fontSize: "1.2rem"
-              }}
-            >
-              C++ | Java | JS(MERN) | Python | SQL
-            </div>
-            <div>
+              Programmer
               <a
                 href="https://github.com/Temirkhanov"
                 target="_blank"
@@ -45,7 +32,6 @@ export default function Home() {
                 {" "}
                 <i class="fab fa-github" />
               </a>
-
               <a
                 href="https://www.linkedin.com/in/ruslan-temirkhanov-474a51111/"
                 target="_blank"
@@ -55,8 +41,15 @@ export default function Home() {
                 {" "}
                 <i class="fab fa-linkedin" />
               </a>
-            </div>
+            </h3>
+            <h5
+              className="display-3"
+              style={{ fontSize: "1.5rem", wordSpacing: "0.5rem" }}
+            >
+              Java | C++ | Python | SQL | JavaScript
+            </h5>
           </Col>
+          <Col />
         </Row>
       </Container>
     </div>
